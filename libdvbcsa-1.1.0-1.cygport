@@ -1,0 +1,10 @@
+DESCRIPTION="DVB Common Scrambling Algorithm library"
+HOMEPAGE="http://www.videolan.org/developers/libdvbcsa.html"
+SRC_URI="http://download.videolan.org/pub/videolan/${PN}/${PV}/${P}.tar.gz"
+
+PKG_NAMES="${PN}1 ${PN}-devel"
+libdvbcsa1_CONTENTS="usr/bin/cygdvbcsa-1.dll usr/share/doc/"
+libdvbcsa_devel_CONTENTS='usr/include/ usr/lib/'
+
+CYGCONF_ARGS="--enable-release"
+MAKEOPTS+=" libtool_flags=-no-undefined"

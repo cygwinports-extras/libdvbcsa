@@ -1,0 +1,6 @@
+category: Video
+requires:
+external-source: libdvbcsa
+sdesc: "DVB Common Scrambling Algorithm library (runtime)"
+ldesc: "libdvbcsa is a free implementation of the DVB Common Scrambling 
+Algorithm - DVB/CSA - with encryption and decryption capabilities."
